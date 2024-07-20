@@ -1,33 +1,33 @@
-# Multithreaded Socket Communication for Gesture Recognition
+# 多线程Socket通信的手势识别
 
-This project is based on TCP-connected Socket communication. The detailed introduction is as follows:
+本项目基于TCP连接的Socket通信，具体介绍如下：
 
-## Client-side Multithreaded Video Stream Capture and Upload
-- The client uses multiple threads to capture video streams from the camera.
-- The video streams are uploaded to the server via a TCP connection.
-- Simultaneously, the client receives the processed video stream from the server.
+## 1. 客户端多线程捕获视频流并上传到服务端
+- 客户端利用多线程分别捕获摄像头的视频流。
+- 视频流通过TCP连接上传到服务端。
+- 同时，客户端接收服务端处理后的视频流。
 
-## Server-side Multithreaded Video Stream Reception and Processing
-- The server uses multiple threads to receive video streams from the client.
-- A pre-trained gesture recognition model is used to detect gestures in the video data.
-- After obtaining the detection results, the server sends them back to the client.
+## 2. 服务端多线程接收并处理视频流
+- 服务端利用多线程接收来自客户端的视频流。
+- 使用已经训练好的手势识别模型对视频数据进行检测。
+- 获取检测结果后，将结果发送回客户端。
 
-## Server Sending Detection Results to Client
-- The server sends the detection results back to the Windows client via a TCP connection.
-- The client receives and displays the detection results.
+## 3. 服务端将检测结果发送回客户端
+- 服务端通过TCP连接将检测结果发送回Windows客户端。
+- 客户端接收并展示检测结果。
 
-## Usage
+## 用法
 
-1. **Deploy Server Code**:
-   - Deploy the code from the server files to the server.
+1. **部署服务端代码**：
+   - 将服务端文件中的代码部署到服务端。
 
-2. **Deploy Client Code**:
-   - Deploy the remaining code to the client.
+2. **部署客户端代码**：
+   - 将其它代码部署在客户端。
 
-3. **Run Code and Test Communication**:
-   - First, run the server code on the server to ensure the server starts successfully.
-   - Then, run the client code on the client device to ensure the client can successfully connect and communicate with the server.
-   - Perform the necessary detection and operations.
+3. **运行代码并检测通信**：
+   - 先在服务器上运行服务端代码，确保服务端启动成功。
+   - 然后在客户端设备上运行客户端代码，确保客户端能够成功连接并与服务端通信。
+   - 进行所需的检测和操作。
 
-4. **Interrupt Communication and Shut Down Server and Client**:
-   - After the detection is complete, press the `ESC` key to interrupt the communication.
+4. **中断通信并关闭服务端和客户端**：
+   - 在检测结束后，按下 `ESC` 键中断通信。
