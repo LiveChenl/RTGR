@@ -1,4 +1,4 @@
-<p align="center" style="background-color: #d3d3d3; padding: 20px; display: inline-block;">
+<p align="center" style="background-color: #333333; padding: 20px; display: inline-block;">
   <img src="./processed_output.gif" alt="手势动作识别结果" />
 </p>
 
