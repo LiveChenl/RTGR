@@ -1,4 +1,4 @@
-![手势动作识别结果](../resylt/processed_output.mp4)
+![手势动作识别结果](./processed_output.gif)
 # 多线程Socket通信的手势识别
 
 本项目基于TCP连接的Socket通信，具体介绍如下：
