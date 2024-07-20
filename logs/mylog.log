@@ -1,0 +1,24 @@
+2024-07-20 09:14:07,088 INFO [Livechen] [client.py (<module>:124] -- Initializing parameters...
+2024-07-20 09:14:07,330 INFO [Livechen] [client.py (__init__:26] -- VideoClient initialized with server IP: 10.16.44.246, port: 8005, save directory: ../result
+2024-07-20 09:14:07,331 INFO [Livechen] [client.py (start_client:101] -- Starting client
+2024-07-20 09:14:07,333 INFO [Livechen] [client.py (start_client:105] -- Connected to server at 10.16.44.246:8005
+2024-07-20 09:14:07,333 INFO [Livechen] [client.py (start_client:108] -- Created thread for sending video
+2024-07-20 09:14:07,333 INFO [Livechen] [client.py (start_client:111] -- Created thread for receiving video
+2024-07-20 09:14:07,333 INFO [Livechen] [client.py (send_video:31] -- Started sending video
+2024-07-20 09:14:07,333 INFO [Livechen] [client.py (receive_video:60] -- Started receiving video
+2024-07-20 09:14:07,333 INFO [Livechen] [client.py (start_client:115] -- Threads started
+2024-07-20 09:14:19,762 INFO [Livechen] [client.py (receive_video:92] -- ESC key pressed, stopping video receive
+2024-07-20 09:14:19,823 INFO [Livechen] [client.py (receive_video:98] -- Video receiving stopped and resources released
+2024-07-20 09:14:19,823 INFO [Livechen] [client.py (start_client:119] -- Threads joined and client finished
+2024-07-20 09:15:32,638 INFO [Livechen] [client.py (<module>:124] -- Initializing parameters...
+2024-07-20 09:15:32,888 INFO [Livechen] [client.py (__init__:26] -- VideoClient initialized with server IP: 10.16.44.246, port: 8005, save directory: ../result
+2024-07-20 09:15:32,888 INFO [Livechen] [client.py (start_client:101] -- Starting client
+2024-07-20 09:15:32,891 INFO [Livechen] [client.py (start_client:105] -- Connected to server at 10.16.44.246:8005
+2024-07-20 09:15:32,891 INFO [Livechen] [client.py (start_client:108] -- Created thread for sending video
+2024-07-20 09:15:32,891 INFO [Livechen] [client.py (start_client:111] -- Created thread for receiving video
+2024-07-20 09:15:32,891 INFO [Livechen] [client.py (send_video:31] -- Started sending video
+2024-07-20 09:15:32,891 INFO [Livechen] [client.py (receive_video:60] -- Started receiving video
+2024-07-20 09:15:32,891 INFO [Livechen] [client.py (start_client:115] -- Threads started
+2024-07-20 09:15:49,338 INFO [Livechen] [client.py (receive_video:92] -- ESC key pressed, stopping video receive
+2024-07-20 09:15:49,399 INFO [Livechen] [client.py (receive_video:98] -- Video receiving stopped and resources released
+2024-07-20 09:15:49,399 INFO [Livechen] [client.py (start_client:119] -- Threads joined and client finished
