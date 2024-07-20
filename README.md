@@ -1,6 +1,39 @@
-<p align="center" style="background-color: #333333; padding: 20px; display: inline-block;">
-  <img src="./processed_output.gif" alt="手势动作识别结果" />
-</p>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container::before {
+            content: "";
+            background-color: #d3d3d3; /* 灰色背景 */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* 确保背景在图片后面 */
+        }
+
+        .image-container img {
+            display: block;
+        }
+    </style>
+    <title>图片背景示例</title>
+</head>
+<body>
+    <div class="image-container">
+        <img src="./processed_output.gif" alt="手势动作识别结果" />
+    </div>
+</body>
+</html>
 
 
 
