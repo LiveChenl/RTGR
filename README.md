@@ -1,21 +1,24 @@
-Multithreaded Socket Communication for Gesture Recognition
+# Multithreaded Socket Communication for Gesture Recognition
 This project is based on TCP-connected Socket communication. The detailed introduction is as follows:
 
-Client-side Multithreaded Video Stream Capture and Upload:
+## 1.Client-side Multithreaded Video Stream Capture and Upload:
 
 The client uses multiple threads to capture video streams from the camera.
 The video streams are uploaded to the server via a TCP connection.
 Simultaneously, the client receives the processed video stream from the server.
-Server-side Multithreaded Video Stream Reception and Processing:
+
+## 2.Server-side Multithreaded Video Stream Reception and Processing:
 
 The server uses multiple threads to receive video streams from the client.
 A pre-trained gesture recognition model is used to detect gestures in the video data.
 After obtaining the detection results, the server sends them back to the client.
-Server Sending Detection Results to Client:
+
+## 3.Server Sending Detection Results to Client:
 
 The server sends the detection results back to the Windows client via a TCP connection.
 The client receives and displays the detection results.
-Usage
+
+# Usage
 Deploy Server Code:
 
 Deploy the code from the server files to the server.
