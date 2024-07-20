@@ -1,4 +1,9 @@
-![手势动作识别结果](./processed_output.gif#pic_center)
+<p align="center" style="background-color: #d3d3d3; padding: 20px; display: inline-block;">
+  <img src="./processed_output.gif" alt="手势动作识别结果" />
+</p>
+
+
+
 # 多线程Socket通信的手势识别
 
 本项目基于TCP连接的Socket通信，具体介绍如下：
