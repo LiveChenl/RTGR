@@ -1,7 +1,9 @@
-<div style="position: relative; display: inline-block;">
-  <span style="content: ''; background-color: #d3d3d3; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></span>
-  <img src="./processed_output.gif" alt="手势动作识别结果" style="display: block; position: relative;">
-</div>
+
+<p align="center">
+  <img src="./processed_output.gif" alt="手势识别结果" />
+</p>
+
+
 # 多线程Socket通信的手势识别
 
 本项目基于TCP连接的Socket通信，具体介绍如下：
