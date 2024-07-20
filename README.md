@@ -17,15 +17,19 @@ The client receives and displays the detection results.
 
 # Usage
 1.Deploy Server Code:
+
 Deploy the code from the server files to the server.
 
 2.Deploy Client Code:
+
 Deploy the remaining code to the client.
 
 3.Run Code and Test Communication:
+
 First, run the server code on the server to ensure the server starts successfully.
 Then, run the client code on the client device to ensure the client can successfully connect and communicate with the server.
 Perform the necessary detection and operations.
 
 4.Interrupt Communication and Shut Down Server and Client:
+
 After the detection is complete, press the ESC key to interrupt the communication.
